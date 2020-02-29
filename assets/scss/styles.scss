@@ -15,6 +15,12 @@
 //Layout
 @import "./layouts/layouts-dir.scss";
 
-// body{
-//     background-color: $bg-color;
-// }
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    width: 100%;
+}

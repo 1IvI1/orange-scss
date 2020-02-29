@@ -1,0 +1,23 @@
+$si-card: si-card;
+$radius: 2px;
+
+%card {
+    background-color: $card-bg-color;
+    padding: $si-main-space;
+    box-shadow: 0px 0px 20px 1px rgba(110, 109, 109, 0.322);
+    border-radius: $radius;
+    width: 100%;
+}
+
+.#{$si-card}{
+    @extend %card;
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+
+    &__footer {
+        margin-top: 20px;
+    }
+}
