@@ -1,7 +1,7 @@
 @charset 'utf-8';
 
 //Vendor
-@import "./vendor/vendor-dir.scss";
+@import "./vendor/fontawesome/vendor-dir.scss";
 
 //Abstracts
 @import "./abstracts/abstracts-dir.scss";
@@ -13,4 +13,8 @@
 @import "./components/components-dir.scss";
 
 //Layout
-@import "./layouts/layouts-dir.scss"
+@import "./layouts/layouts-dir.scss";
+
+// body{
+//     background-color: $bg-color;
+// }
